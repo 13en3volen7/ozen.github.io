@@ -45,7 +45,7 @@ button {
     padding: 20px 100px 100px;
 }
 
-.left, .right, .info, .fact, .quote, .content, .slogan .left {
+.left, .right, #info, .fact, .quote, .content, .slogan .left {
     display: flex;
     flex-flow: column;
 }
@@ -72,7 +72,7 @@ button {
     color: #F9FAF8;
 }
 
-.info {
+#info {
     align-items: center;
     gap: 60px;
 }
@@ -142,7 +142,13 @@ button {
     color: #F9FAF8;
 }
 
-.slogan .sign-up {
+.slogan .left {
+    display: flex;
+    flex: 1;
+    flex-shrink: 0;
+}
+
+.descent {
     border: 3px solid #F9FAF8;
     margin: 0;
 }
